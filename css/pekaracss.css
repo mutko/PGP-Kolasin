@@ -1,3 +1,141 @@
 body {
-	font-family: "Book Antiqua";
+	font-family: 'Open Sans', 'Book Antiqua', sans-serif;
+	font-weight: 400;
+  	line-height: 1.45;
+  	font-size: 18px;
+	position: relative;
+}
+/* 	=============
+	typography and
+	common styles  */
+p {
+	margin-bottom: 1.3em;
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+h1, h2, h3, h4 {
+	margin: 1.414em 0 0.5em;
+	font-weight: inherit;
+	line-height: 1.2;
+}
+h1 {
+	margin-top: 0;
+	font-size: 2.827em;
+}
+h2 {
+	font-size: 1.999em;
+}
+h3 {
+	font-size: 1.414em;
+}
+a {
+	color: #333;
+}
+a:active {
+	outline: 0;
+}
+a:hover {
+	color: #333;
+	text-decoration: none;
+}
+.btn-default {
+	border-radius: 0;
+	color: #ffffff;
+	background: #ff9306;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 20px 40px;
+	margin: 0;
+	border: none;
+}
+.btn-default:hover {
+	color: #fff;
+	background: #333;
+}
+/* 	=============
+	page-header  */
+header {
+	z-index: 11;
+}
+.page-header {
+	position: absolute;
+	background: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: visible;
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.navbar-brand {
+	padding: 0;
+}
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	height: 80px;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+.nav>li>a {
+    padding: 10px 15px;
+    margin: 20px 2px 0;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background: #ff9306;
+	color: #FFF;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background: #ff9306;
+	color: #FFF;
+}
+
+.jumbotron {
+	position: relative;
+	z-index: 0;
+	top: 0;
+	overflow: hidden;
+	min-height: 800px;
+}
+.title {
+	position: absolute;
+	top: 30%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+}
+.jumbotron .pekarska-industrija {
+	color: #fff;
+	font-size: 4em;
+}
+.jumbotron .pgp-kolasin {
+	color: #ff9306;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: -40px;
+	margin-bottom: 80px;
+	font-size: 5.4em;
+}
+
+
+.welcome {
+	font-size: 3.5em;
+	font-weight: bold;
+	margin-bottom: 0;
+	font-style: italic;
+}
+.slogan {
+	font-style: italic;
 }
