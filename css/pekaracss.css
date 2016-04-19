@@ -44,13 +44,16 @@ a:hover {
 	background: #ff9306;
 	font-weight: bold;
 	font-size: 1.5em;
-	padding: 20px 40px;
+	padding: 15px 40px;
 	margin: 0;
 	border: none;
 }
 .btn-default:hover {
 	color: #fff;
 	background: #333;
+}
+.btn .glyphicon {
+	top: 4px;
 }
 /* 	=============
 	page-header  */
@@ -60,7 +63,6 @@ header {
 .page-header {
 	position: absolute;
 	background: none;
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -76,6 +78,7 @@ header {
 	float: none;
 	vertical-align: top;
 	height: 80px;
+	margin-left: -145px;
 }
 .navbar .navbar-collapse {
 	text-align: center;
@@ -101,12 +104,18 @@ header {
 	color: #FFF;
 }
 
+/* 	=============
+	jumbotron  */
+
 .jumbotron {
 	position: relative;
 	z-index: 0;
 	top: 0;
 	overflow: hidden;
 	min-height: 800px;
+	margin-bottom: 80px;
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
 }
 .title {
 	position: absolute;
@@ -129,8 +138,10 @@ header {
 	font-size: 5.4em;
 }
 
-
-.welcome {
+.dobrodosli {
+	margin-bottom: 80px;
+}
+.dobrodosli-title {
 	font-size: 3.5em;
 	font-weight: bold;
 	margin-bottom: 0;
@@ -138,4 +149,83 @@ header {
 }
 .slogan {
 	font-style: italic;
+	margin-top: 0;
+}
+
+.proizvodi {
+	padding: 120px 0;
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+}
+.proizvodi-title {
+	color: #fff;
+	font-size: 2.5em;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.proizvodi-u-nedelji {
+	color: #fff;
+	font-size: 3.5em;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.dostava-kontakt {
+	padding: 80px 0;
+}
+.dostava-box {
+	background: #f6f6f6 url(../images/banner-1.jpg) left 0 no-repeat;
+	padding: 50px 60px;
+}
+.kontakt-box {
+	background: #f6f6f6 url(../images/banner-2.jpg) right 0 no-repeat;
+	padding: 50px 60px;
+}
+.dostava-kontakt h1 {
+	color: #ff9306;
+	font-weight: bold;
+}
+
+.page-footer {
+	padding: 80px 0 60px;
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+	position: relative;
+	color: #fff;
+}
+.logo {
+	margin-top: 17px;
+}
+.facebook {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #333;
+	border-radius: 100%;
+	margin-top: 27px;
+}
+.facebook:hover {
+	background: #ff9306;
+}
+.facebook img {
+	margin: 5px 5px 0 0;
+}
+.na-vrh {
+	position: absolute;
+	top: -30px;
+	right: 30px;
+	color: #FFF;
+	width: 60px;
+	height: 60px;
+	background: #333;
+	border-radius: 100%;
+	font-size: 30px;
+}
+.na-vrh .glyphicon {
+	top: 10px;
+	left: 15px;
+}
+.na-vrh:hover {
+	color: #fff;
+	background: #ff9306;
 }
