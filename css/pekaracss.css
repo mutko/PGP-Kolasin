@@ -95,12 +95,15 @@ header {
 	color: #FFF;
 	font-weight: bold;
 }
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
 	background: #ff9306;
 	color: #FFF;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    background: #ff9306;
+.navbar-default .navbar-nav>li>a:focus {
+    background: none;
 	color: #FFF;
 }
 
@@ -134,12 +137,25 @@ header {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-top: -40px;
-	margin-bottom: 80px;
+	margin-bottom: 0;
 	font-size: 5.4em;
 }
+.slogan {
+	font-style: italic;
+	margin-top: 0;
+	color: #fff;
+	margin-bottom: 80px;
+}
+.slogan-manji {
+	margin-bottom: 40px;
+	color: #333;
+}
 
+/* 	=============
+	dobrodosli  */
 .dobrodosli {
 	margin-bottom: 80px;
+	background: #ffffff url(../images/bg-1.jpg) right 0 no-repeat;
 }
 .dobrodosli-title {
 	font-size: 3.5em;
@@ -147,11 +163,12 @@ header {
 	margin-bottom: 0;
 	font-style: italic;
 }
-.slogan {
-	font-style: italic;
-	margin-top: 0;
+.dobrodosli-text {
+	font-size: 1em;
+	margin-top: 40px;
 }
-
+/* 	=============
+	proizvodi  */
 .proizvodi {
 	padding: 120px 0;
 	background-image: url('../images/bg.jpg');
@@ -169,7 +186,8 @@ header {
 	font-weight: bold;
 	margin-bottom: 40px;
 }
-
+/* 	=============
+	dostava-kontakt  */
 .dostava-kontakt {
 	padding: 80px 0;
 }
@@ -185,7 +203,8 @@ header {
 	color: #ff9306;
 	font-weight: bold;
 }
-
+/* 	=============
+	footer  */
 .page-footer {
 	padding: 80px 0 60px;
 	background-image: url('../images/bg.jpg');
@@ -228,4 +247,19 @@ header {
 .na-vrh:hover {
 	color: #fff;
 	background: #ff9306;
+}
+
+/* 	=============
+	Strana O NAMA  */
+
+.jumbotron-small {
+	min-height: 500px;
+}
+
+/* 	=============
+	Strana PROIZVODI  */
+.thumbnail {
+	padding: 0;
+	margin: 0;
+	border: none;
 }
